@@ -1,0 +1,17 @@
+
+   <div class="form2"><div class="form1">
+    <h2>Form Cân Nặng</h2>
+    <div class="row">
+      <label class="col-1"> Nhập cân nặng của bạn:</label>
+      <app-inputtext [message]="'23'" (submit)="onSubmit($event)" class="col-2"></app-inputtext><br>
+    </div>
+    <div class="row">
+      <label class="col-1">Nhập cân nặng của con mèo:</label>
+      <app-inputtext [message]="'23'"(submit)="onSubmit($event)" class="col-2"></app-inputtext><br>
+    </div>
+    <div class="row">
+      <span>Gía trị bạn nhập là: {{inputValue}}</span>
+  </div>
+
+     </div></div>
+

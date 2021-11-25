@@ -1,0 +1,47 @@
+.ip1{
+  width: 300px;
+  height: 20px;
+  border-color: rgb(235, 207, 235) ;
+  border-radius: 2px ;
+}
+.col-1{
+    width:40%;
+}
+.col-2{
+  width: 60%;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+}
+.form1{
+  border-radius: 20px;
+  border: solid 2px rgb(177, 225, 241);
+  background-color: rgb(170, 141, 162);
+  width: 50%;
+  margin-right: 300px;
+  height: 250px;
+  margin-right: 100px;
+  margin-left: 300px;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+span{
+  margin-top:50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(7, 8, 8);
+}
+
+h2{
+  text-align: center;
+  color: rgb(23, 23, 24);
+}
+label{
+  color: rgb(20, 18, 20);
+}
+
